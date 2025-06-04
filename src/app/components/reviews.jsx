@@ -8,7 +8,7 @@ export default function TrustindexWidget() {
           What Our Customers Say
         </h3>
         <iframe
-          src="https://cdn.trustindex.io/amp-widget.html#0bf0b81474b43155f186b4e53fa"
+          src="https://cdn.trustindex.io/amp-widget.html#70abda8470cb5806f096ebd00a4"
           style={{
             display: "block",
             width: "100%",
