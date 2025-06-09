@@ -1,15 +1,34 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import QuoteForm from "../components/quoteForm";
+import Image from "next/image";
+import img1 from "../assets/img/quote/1.jpg"
 
 export default function QuotePage() {
   return (
     <div className="">
       <Navbar />
-
+          <div className="relative w-full h-[400px]">
+            {/* Dark overlay */}
+            <div className="absolute inset-0 bg-black/40 z-10" />
+      
+            {/* Static Background Image */}
+            <Image
+              src={img1}
+              alt="Hero Background"
+              fill
+              className="object-cover z-0"
+              priority
+            />
+      
+            {/* Title in the center */}
+            <div className="absolute inset-0 z-20 flex items-center justify-center">
+              <h1 className="text-white text-4xl md:text-5xl font-bold">Request a Free Quote</h1>
+            </div>
+          </div>
       <section className="py-20 my-20 px-6 text-center max-w-6xl mx-auto">
-        <h1 className="text-5xl font-extrabold mb-6 text-primary">Free Glass Quote</h1>
-        <p className="text-lg mb-4 text-neutral-content">
+        <h1 className="text-5xl font-extrabold mb-6 text-primary">Get Free Quote for Glass Repair & Replacement</h1>
+        <p className="text-lg mb-4 text-black">
           Thank you for considering Dallas Glass and Auto for your auto and residential glass service needs.
         </p>
         <p className="mb-10 text-base-content">

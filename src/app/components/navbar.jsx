@@ -1,76 +1,97 @@
 "use client";
-import { useState } from "react";
-import logo from "../assets/logo-white.png";
+import { useState, useEffect } from "react";
+import logo from "../assets/logo-black.png";
 import Link from "next/link";
 import Image from "next/image";
-import { MdOutlineMenu } from "react-icons/md";
-import { IoMdClose } from "react-icons/io";
+import { MdOutlineMenu, MdClose } from "react-icons/md";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isTinyScreen, setIsTinyScreen] = useState(false);
+
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsTinyScreen(window.innerWidth < 600);
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
-    <header className="bg-black w-full z-50 sticky top-0">
-      <nav className="flex max-w-7xl mx-auto justify-between items-center p-4 relative">
+    <nav className="bg-white shadow-md top-0 z-50 w-full relative">
+      <div className="flex max-w-7xl mx-auto justify-between items-center p-4">
         {/* Logo */}
         <div>
           <Link href="/">
-            <Image src={logo} alt="Logo" className="w-40" />
+            <Image src={logo} alt="Logo" className="w-42" />
           </Link>
         </div>
 
-        {/* Desktop Menu */}
-        <ul className="hidden lg:flex items-center gap-4">
-          <li className="btn btn-ghost text-white">
-            <Link href="/">Home</Link>
-          </li>
-          <li className="btn btn-ghost text-white">
-            <Link href="/auto">Auto</Link>
-          </li>
-          <li className="btn btn-ghost text-white">
-            <Link href="/residential">Residential</Link>
-          </li>
-          <li className="btn btn-ghost text-white">
-            <Link href="/tools">Tools</Link>
-          </li>
-          <li className="btn btn-outline text-white border-white">
-            <Link href="tel:+19729007194">(972) 900-7194</Link>
-          </li>
-          <li className="btn uppercase btn-primary">
-            <Link href="/quote">Contact Us</Link>
-          </li>
+        {/* Right Side Buttons + Hamburger */}
+        <div className="flex items-center gap-4">
+          <ul className="hidden lg:flex items-center text-black gap-4">
+            <li className="btn btn-primary text-lg text-white hover:bg-black hover:text-primary transition-colors">
+              <Link href="/quote">CONTACT US FOR MORE INFORMATION</Link>
+            </li>
+          </ul>
+
+          {/* Hamburger Button */}
+          <button className="btn btn-ghost hover:bg-primary hover:text-black z-20" onClick={toggleMenu}>
+            {isOpen ? (
+              <MdClose className="text-2xl text-white" />
+            ) : (
+              <MdOutlineMenu className="text-2xl text-black" />
+            )}
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile Buttons Under Logo/Hamburger */}
+      {isTinyScreen && (
+        <div className="flex flex-col items-center gap-4 pb-4 px-4 lg:hidden">
+          <Link href="/quote" className="btn btn-primary text-white w-full">
+            CONTACT US FOR MORE INFORMATION
+          </Link>
+        </div>
+      )}
+
+      {/* Sidebar Menu - Slides from right */}
+      <div
+        className={`fixed top-0 right-0 h-full w-96 bg-white shadow-lg transform transition-transform duration-300 z-40 ${
+          isOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        <div className="flex justify-between items-center p-4">
+          <button className="text-2xl btn btn-ghost text-black hover:bg-primary hover:text-black" onClick={toggleMenu}>
+            <MdClose />
+          </button>
+        </div>
+        <ul className="flex flex-col p-6 gap-4 text-black">
+          {[ 
+            { label: "Home", href: "/" },
+            { label: "Auto", href: "/auto" },
+            { label: "Residential", href: "/residential" },
+            { label: "Tools", href: "/tools" },
+          ].map(({ label, href }) => (
+            <li key={label} className="btn btn-ghost text-left hover:bg-primary hover:text-white transition-colors">
+              <Link href={href} onClick={toggleMenu}>
+                {label}
+              </Link>
+            </li>
+          ))}
         </ul>
+      </div>
 
-        {/* Mobile Menu Toggle */}
-        <button className="lg:hidden btn btn-ghost text-white z-50" onClick={toggleMenu}>
-          {isOpen ? <IoMdClose className="text-2xl" /> : <MdOutlineMenu className="text-2xl" />}
-        </button>
-
-        {/* Mobile Menu Fullscreen */}
-        {isOpen && (
-          <div className="fixed top-0 left-0 w-full h-full bg-black z-40 flex flex-col justify-center items-center p-6">
-            <ul className="flex flex-col gap-6 items-center w-full">
-              {[ 
-                { label: "Home", href: "/" },
-                { label: "Auto", href: "/auto" },
-                { label: "Residential", href: "/residential" },
-                { label: "Tools", href: "/tools" },
-                { label: "(972) 900-7194", href: "tel:+19729007194", className: "btn-outline text-white border-white" },
-                { label: "Free Quote", href: "/quote", className: "btn-primary" },
-              ].map(({ label, href, className = "btn-ghost text-white" }, i) => (
-                <li key={i} className={`btn w-full text-center ${className}`}>
-                  <Link href={href} onClick={() => setIsOpen(false)}>
-                    {label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-      </nav>
-    </header>
+      {/* Backdrop */}
+      {isOpen && (
+        <div className="fixed inset-0 opacity-20 bg-black z-30" onClick={toggleMenu} />
+      )}
+    </nav>
   );
 };
 
 export default Navbar;
+              
