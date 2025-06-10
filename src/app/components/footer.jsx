@@ -3,20 +3,18 @@ import Link from "next/link";
 import { FaPhone, FaLocationArrow } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import Image from "next/image";
-import logo from "../assets/logo-black.png";
+import logo from "../assets/logo-white.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className=" text-black py-16 px-6">
+    <footer className="text-white pt-10 bg-gray-800">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
         {/* Logo & Description */}
         <div className="flex-1">
           <Image className="w-40 mb-4" src={logo} alt="Logo" />
-          <p className="text-sm opacity-80 max-w-sm leading-relaxed">
-            At Dallas Glass and Auto, we take pride in delivering expert auto and residential glass services across Texas.
-          </p>
+
         </div>
 
         {/* Quick Navigation */}
@@ -50,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-12 text-center text-sm opacity-60">
+      <div className="bg-black py-4 text-center text-sm">
         © {currentYear} Dallas Glass and Auto. All rights reserved.
       </div>
     </footer>

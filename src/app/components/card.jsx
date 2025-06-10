@@ -33,103 +33,108 @@ const slides = [
 const Card = () => {
   return (
     <section className="w-full text-black">
-      {/* Hero Section */}
-      <section className="w-full bg-base-100 py-20 px-6">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
-          {/* Text Section */}
-          <div className="w-full md:w-1/2 space-y-6">
-            <h1 className="text-4xl font-extrabold text-primary">
-              Crystal Clear Solutions
-            </h1>
-            <h2 className="text-2xl font-medium">
-              for Your Dallas Glass Repair Needs
-            </h2>
-            <div className="w-16 h-1 bg-primary"></div>
-            <p className="text-base-content">
-              At Dallas Glass & Auto, we are dedicated to delivering exceptional
-              glass repair and replacement services at the most competitive
-              prices. Our skilled technicians provide timely, professional
-              service, offering customized solutions to meet both your auto and
-              residential glass repair needs. Whether you're dealing with a
-              cracked windshield, a broken window, or require a full glass
-              replacement, we are equipped to handle it all. We understand how
-              disruptive glass damage can be, which is why we strive to minimize
-              any inconvenience by offering fast, reliable, and efficient
-              services. With our convenient mobile services, we can even come
-              directly to your home or business for added ease and comfort.
-            </p>
-            <p className="text-base-content">
-              With more than 21 years of experience, we understand the
-              importance of precision, reliability, and using top-quality
-              materials. We take pride in using only the highest-quality glass,
-              ensuring durability, safety, and crystal-clear results in every
-              repair and replacement. Our expert team is trained to handle all
-              types of glass, from auto glass repairs to custom residential
-              solutions, ensuring that each job meets the highest standards.
-              Whether you require auto glass repair, windshield replacement, or
-              residential window services, we are here to ensure your glass
-              needs are met with the utmost care and expertise. At Dallas Glass
-              & Auto, we’re committed to providing lasting results and customer
-              satisfaction with every service we provide.
-            </p>
+<section className="w-full bg-base-100 py-20 px-6">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-stretch gap-10">
+    {/* Text Section */}
+    <div className="space-y-6 flex flex-col justify-between">
+      <div>
+        <h1 className="text-5xl font-extrabold text-primary">
+          Crystal Clear Solutions
+        </h1>
+        <h2 className="text-2xl my-8 font-medium">
+          for Your Dallas Glass Repair Needs
+        </h2>
+        <div className="w-16 h-1 bg-primary my-4"></div>
+        <p className="text-base-content">
+          At Dallas Glass & Auto, we are dedicated to delivering exceptional
+          glass repair and replacement services at the most competitive
+          prices. Our skilled technicians provide timely, professional
+          service, offering customized solutions to meet both your auto and
+          residential glass repair needs. Whether you're dealing with a
+          cracked windshield, a broken window, or require a full glass
+          replacement, we are equipped to handle it all. We understand how
+          disruptive glass damage can be, which is why we strive to minimize
+          any inconvenience by offering fast, reliable, and efficient
+          services. With our convenient mobile services, we can even come
+          directly to your home or business for added ease and comfort.
+        </p>
+        <p className="text-base-content">
+          With more than 21 years of experience, we understand the
+          importance of precision, reliability, and using top-quality
+          materials. We take pride in using only the highest-quality glass,
+          ensuring durability, safety, and crystal-clear results in every
+          repair and replacement. Our expert team is trained to handle all
+          types of glass, from auto glass repairs to custom residential
+          solutions, ensuring that each job meets the highest standards.
+          Whether you require auto glass repair, windshield replacement, or
+          residential window services, we are here to ensure your glass
+          needs are met with the utmost care and expertise. At Dallas Glass
+          & Auto, we’re committed to providing lasting results and customer
+          satisfaction with every service we provide.
+        </p>
+      </div>
+      <p className="text-xl font-semibold">
+        Call Now! – <Link href={'tel:9729007194'}><span className="text-primary">(972) 900-7194</span></Link>
+      </p>
+    </div>
 
-            <p className="text-xl font-semibold">
-              Call Now! – <span className="text-primary">(972) 900-7194</span>
-            </p>
-          </div>
+    {/* Image Section */}
+    <div className="relative w-full aspect-[4/5] md:aspect-auto md:h-full rounded-xl overflow-hidden shadow-lg">
+      <Image
+        src={img3}
+        alt="Glass repair in action"
+        fill
+        className="object-cover"
+        sizes="(max-width: 768px) 100vw, 50vw"
+      />
+    </div>
+  </div>
+</section>
 
-          {/* Image Section */}
-          <div className="w-full md:w-1/2 h-[500px] relative rounded-xl overflow-hidden shadow-lg">
-            <Image
-              src={img3}
-              alt="Glass repair in action"
-              fill
-              className="object-cover w-full h-full"
-            />
-          </div>
-        </div>
-      </section>
+<section className="w-full bg-base-100  px-6">
+  <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-stretch gap-10">
+    {/* Image Section */}
+    <div className="w-full h-[400px] md:h-auto relative rounded-xl overflow-hidden shadow-lg">
+      <Image
+        src={img7}
+        alt="Glass repair in action"
+        fill
+        className="object-cover w-full h-full"
+      />
+    </div>
 
-      <section className="w-full bg-base-100 py-20 px-6">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
-          {/* Image Section */}
-          <div className="w-full md:w-1/2 h-[700px] relative rounded-xl overflow-hidden shadow-lg">
-            <Image
-              src={img7}
-              alt="Glass repair in action"
-              fill
-              className="object-cover w-full h-full"
-            />
-          </div>
-          {/* Text Section */}
-          <div className="w-full md:w-1/2 space-y-6">
-            <h1 className="text-4xl font-extrabold text-primary">
-              Why Choose a Professional Dallas Auto Glass Repair Service?
-            </h1>
-            <div className="w-16 h-1 bg-primary"></div>
-            <p className="text-base-content">
-Glass plays a crucial role in both home fixtures and automobile aesthetics, enhancing the appearance, safety, and durability of your property and vehicle. Whether in your living room, kitchen, bathroom, or office, residential glass adds elegance, while automobile glass gives your vehicle a sleek, polished look.
+    {/* Text Section */}
+    <div className="w-full space-y-6 self-center">
+      <h1 className="text-4xl font-extrabold text-primary">
+        Why Choose a Professional Dallas Auto Glass Repair Service?
+      </h1>
+      <div className="w-16 h-1 bg-primary"></div>
+      <p className="text-base-content">
+        Glass plays a crucial role in both home fixtures and automobile aesthetics, enhancing the appearance, safety, and durability of your property and vehicle. Whether in your living room, kitchen, bathroom, or office, residential glass adds elegance, while automobile glass gives your vehicle a sleek, polished look.
+      </p>
+      <p className="text-base-content">
+        However, without proper maintenance, glass can develop scratches, cracks, and chips, compromising both safety and appearance. That’s why choosing a professional auto glass repair service is essential.
+      </p>
+      <p className="text-base-content">
+        At Dallas Glass & Auto, our expert technicians provide:
+        <br />
+        • Precision auto glass repair and windshield replacement<br />
+        • High-quality, durable glass for vehicles and homes<br />
+        • Fast service with long-lasting results
+      </p>
+      <p className="text-base-content">
+        Don’t let damaged glass affect your safety and style—trust Dallas Glass & Auto for expert glass solutions. Call us today for a free quote!
+      </p>
 
-However, without proper maintenance, glass can develop scratches, cracks, and chips, compromising both safety and appearance. That’s why choosing a professional auto glass repair service is essential.
-            </p>
-            <p className="text-base-content">
-At Dallas Glass & Auto, our expert technicians provide:
-
-Precision auto glass repair and windshield replacement
-High-quality, durable glass for vehicles and homes
-Fast service with long-lasting results
-Don’t let damaged glass affect your safety and style—trust Dallas Glass & Auto for expert glass solutions. Call us today for a free quote!
-            </p>
-
-            <p className="text-xl font-semibold">
-              Call Now! –{" "}
-              <span className="text-primary">
-                <Link href={"tel:+19729007194"}>(972) 900-7194</Link>
-              </span>
-            </p>
-          </div>
-        </div>
-      </section>
+      <p className="text-xl font-semibold">
+        Call Now! –{" "}
+        <span className="text-primary">
+          <Link href={"tel:+19729007194"}>(972) 900-7194</Link>
+        </span>
+      </p>
+    </div>
+  </div>
+</section>
 
       <section className="w-full bg-base-100 py-20 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
@@ -155,6 +160,9 @@ Don’t let damaged glass affect your safety and style—trust Dallas Glass & Au
                 "High-Quality, Warranted Glass Materials – We use premium glass that meets industry standards and enhances durability.",
                 "Flexible Payment Options – No insurance or a high deductible? We provide hassle-free solutions to make window replacement affordable.",
                 "Customer-First Approach – We are known for providing the best customer service in Texas, ensuring a stress-free experience.",
+                "Eco-Friendly Disposal – We follow environmentally responsible practices when disposing of old or damaged glass.",
+                "Same-Day Appointments – Get back on the road faster with fast scheduling and efficient turnaround times.",
+
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3">
                   <FaCheckCircle className="text-primary w-5 h-5 mt-1 flex-shrink-0" />
@@ -218,7 +226,7 @@ Don’t let damaged glass affect your safety and style—trust Dallas Glass & Au
           </div>
         </div>
       </section>
-      <section className="w-full bg-base-100 py-20 px-6">
+      <section className="w-full bg-base-100 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Image Section */}
           <div className="w-full h-[800px] relative rounded-xl overflow-hidden shadow-md">

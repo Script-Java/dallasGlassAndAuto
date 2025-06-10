@@ -18,7 +18,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-[900px] overflow-hidden">
       {/* Background Images with fade */}
       {slides.map((img, i) => (
         <Image
@@ -38,7 +38,7 @@ const Slider = () => {
         <h2 className="text-white mb-10 text-4xl md:text-7xl uppercase font-bold">
           Full-Service Auto Glass Repair and Replacement
         </h2>
-        <Link className="btn btn-primary p-6 text-xl text-white hover:bg-black hover:text-primary" href={'/quote'}>Learn More About the Auto Glass Services We Offer</Link>
+        <Link className="btn btn-primary p-6 mt-8 text-xl text-white hover:bg-black hover:text-primary" href={'/quote'}>Learn More About the Auto Glass Services We Offer</Link>
       </div>
     </div>
   );

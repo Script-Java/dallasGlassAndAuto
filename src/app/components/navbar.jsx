@@ -26,7 +26,7 @@ const Navbar = () => {
         {/* Logo */}
         <div>
           <Link href="/">
-            <Image src={logo} alt="Logo" className="w-42" />
+            <Image src={logo} alt="Logo" className="w-48" />
           </Link>
         </div>
 
@@ -41,9 +41,9 @@ const Navbar = () => {
           {/* Hamburger Button */}
           <button className="btn btn-ghost hover:bg-primary hover:text-black z-20" onClick={toggleMenu}>
             {isOpen ? (
-              <MdClose className="text-2xl text-white" />
+              <MdClose className="text-3xl text-white" />
             ) : (
-              <MdOutlineMenu className="text-2xl text-black" />
+              <MdOutlineMenu className="text-3xl text-black" />
             )}
           </button>
         </div>
@@ -72,9 +72,10 @@ const Navbar = () => {
         <ul className="flex flex-col p-6 gap-4 text-black">
           {[ 
             { label: "Home", href: "/" },
-            { label: "Auto", href: "/auto" },
-            { label: "Residential", href: "/residential" },
+            { label: "Auto Glass", href: "/auto" },
+            { label: "Residential Glass", href: "/residential" },
             { label: "Tools", href: "/tools" },
+            { label: "Online Quote", href: "/quote" },
           ].map(({ label, href }) => (
             <li key={label} className="btn btn-ghost text-left hover:bg-primary hover:text-white transition-colors">
               <Link href={href} onClick={toggleMenu}>
