@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Prevent indexing of private or duplicate areas (edit as needed)
+Disallow: /admin
+Disallow: /api/
+
+# Tell crawlers where the sitemap lives
+Sitemap: https://dallasglassandauto.com/sitemap.xml
