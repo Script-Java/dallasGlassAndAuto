@@ -87,23 +87,23 @@ const ToolsCard = () => {
 
       <ul className="space-y-3 text-base-content text-lg pt-2">
         <li>
-          <span className="text-primary font-bold mr-2">1</span>
+          <span className="text-primary font-bold mr-2">1 -</span>
           Laser Measuring Systems – Ensures precise glass cutting and fitting.
         </li>
         <li>
-          <span className="text-primary font-bold mr-2">2</span>
+          <span className="text-primary font-bold mr-2">2 -</span>
           High-Power Suction Lifters – Handles large and heavy glass panels safely.
         </li>
         <li>
-          <span className="text-primary font-bold mr-2">3</span>
+          <span className="text-primary font-bold mr-2">3 -</span>
           UV Bonding Technology – Provides seamless, durable repairs.
         </li>
         <li>
-          <span className="text-primary font-bold mr-2">4</span>
+          <span className="text-primary font-bold mr-2">4 -</span>
           ADAS Calibration Equipment – Ensures accurate windshield alignment for modern vehicles.
         </li>
         <li>
-          <span className="text-primary font-bold mr-2">5</span>
+          <span className="text-primary font-bold mr-2">5 -</span>
           Automated Glass Cutting Machines – Speeds up production and enhances accuracy.
         </li>
       </ul>
@@ -272,22 +272,25 @@ const ToolsCard = () => {
             At <strong>Dallas Glass & Auto</strong>, we provide <strong>expert residential glass repair and replacement services</strong> tailored to fit your home’s needs. Whether you're looking for <strong>custom-cut mirrors</strong>, <strong>durable glass table tops</strong>, or <strong>high-quality window replacements</strong>, our skilled technicians ensure <strong>precision craftsmanship</strong> and <strong>long-lasting results</strong>.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
-            {[
-              "Custom mirrors cut to size for bathrooms, bedrooms, and home decor",
-              "Framed mirror selection available from our catalog",
-              "Glass table tops cut to pattern or specific dimensions",
-              "Tempered sliding glass doors for safety and durability",
-              "Storm window and garage door window replacements",
-              "Exterior home window glass replacement",
-              "Glass shower doors for a modern and elegant touch",
-            ].map((item, idx) => (
-              <div key={idx} className="flex items-start gap-2">
-                <FaCheckCircle className="text-primary w-5 h-5 mt-1" />
-                <span className="text-base-content text-sm md:text-base">{item}</span>
-              </div>
-            ))}
-          </div>
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+  {[
+    "Custom mirrors cut to size for bathrooms, bedrooms, and home decor",
+    "Framed mirror selection available from our catalog",
+    "Glass table tops cut to pattern or specific dimensions",
+    "Tempered sliding glass doors for safety and durability",
+    "Storm window and garage door window replacements",
+    "Exterior home window glass replacement",
+    "Glass shower doors for a modern and elegant touch",
+  ].map((item, idx) => (
+    <div key={idx} className="flex items-start gap-3">
+      <div className="w-5 h-5 flex items-center justify-center">
+        <FaCheckCircle className="text-primary w-5 h-5" />
+      </div>
+      <span className="text-base-content text-sm md:text-base">{item}</span>
+    </div>
+  ))}
+</div>
+
         </div>
 
         {/* Image Section */}

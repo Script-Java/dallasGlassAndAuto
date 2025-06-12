@@ -159,7 +159,7 @@ const Card = () => {
                 "Affordable Custom Glass Installations – We offer customized glass solutions at reasonable prices.",
                 "High-Quality, Warranted Glass Materials – We use premium glass that meets industry standards and enhances durability.",
                 "Flexible Payment Options – No insurance or a high deductible? We provide hassle-free solutions to make window replacement affordable.",
-                "Customer-First Approach – We are known for providing the best customer service in Texas, ensuring a stress-free experience.",
+                "Customer-First Approach – We are known for providing the best customer service in Dallas, ensuring a stress-free experience.",
                 "Eco-Friendly Disposal – We follow environmentally responsible practices when disposing of old or damaged glass.",
                 "Same-Day Appointments – Get back on the road faster with fast scheduling and efficient turnaround times.",
 

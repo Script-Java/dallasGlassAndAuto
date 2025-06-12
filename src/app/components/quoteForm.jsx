@@ -36,7 +36,7 @@ export default function QuoteForm() {
   );
 
   return (
-    <div className="max-w-5xl md:max-w-7xl mx-auto p-6 bg-base-100 rounded-lg shadow-lg">
+    <div className="max-w-5xl md:max-w-6xl mx-auto p-6 bg-base-100 rounded-lg shadow-lg">
       <h2 className="text-2xl font-bold mb-6">Request a Glass Service Quote</h2>
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
@@ -150,7 +150,7 @@ export default function QuoteForm() {
           <input name="vin" onChange={handleChange} type="text" className="input input-bordered w-full" />
         </div>
 
-        <p className="text-sm text-warning">
+        <p className="text-sm text-red-700">
           <strong>ATTENTION DEAR CUSTOMER:</strong> For windshield and backglass replacements on 2016 and newer vehicles, the VIN is required to ensure the correct fit and specifications.
         </p>
 

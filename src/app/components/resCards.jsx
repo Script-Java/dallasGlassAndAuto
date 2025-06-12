@@ -42,7 +42,7 @@ At Dallas Glass & Auto, we are committed to providing exceptional glass repair s
 const AutoCard = () => {
   return (
     <section className="w-full">
-          <section className="w-full bg-base-100 py-20 px-6">
+          <section className="w-full bg-base-100 py-10 px-6">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
               {/* Image Section */}
               <div className="w-full h-[700px] relative rounded-xl overflow-hidden shadow-md">
@@ -54,64 +54,45 @@ const AutoCard = () => {
                 />
               </div>
     
-              {/* Content Section */}
-              <div className="space-y-6">
-                <h2 className="text-5xl font-extrabold text-primary leading-tight">
-                  Auto Glass Repair &<br />
-                  Windshield
-                  <br />
-                  Replacement
-                </h2>
-                <div className="w-16 h-1 bg-primary"></div>
-    
-                <p className="text-base-content">
-                  At <strong>Dallas Glass and Auto</strong>, we specialize in{" "}
-                  <strong>auto glass repair and replacement</strong> for all types
-                  of vehicles. Whether you have a{" "}
-                  <strong>
-                    chipped windshield, broken side window, or shattered rear glass
-                  </strong>
-                  , our expert technicians provide{" "}
-                  <strong>fast, precise, and high-quality repairs</strong> to get
-                  you back on the road safely.
-                </p>
-    
-                <p className="text-base-content">
-                  When that happens, <strong>Dallas Glass & Auto</strong> is the{" "}
-                  <strong>trusted solution</strong> for{" "}
-                  <strong>
-                    windshield repair, auto glass replacement, and water leak fixes
-                  </strong>
-                  . Choosing our expert service ensures:
-                </p>
-    
-                <p className="text-base-content">
-                  Don’t wait until small cracks become a bigger problem.{" "}
-                  <strong>
-                    Contact Dallas Glass & Auto today for top-tier auto glass
-                    solutions!
-                  </strong>
-                </p>
-    
-                <ul className="space-y-3 text-base-content text-lg pt-2">
-                  <li>
-                    <span className="text-primary font-bold mr-2">1</span> Precision
-                    windshield replacement with high-quality glass
-                  </li>
-                  <li>
-                    <span className="text-primary font-bold mr-2">2</span> Water
-                    leak repairs to prevent further damage
-                  </li>
-                  <li>
-                    <span className="text-primary font-bold mr-2">3</span> Fast and
-                    reliable service to get you back on the road quickly
-                  </li>
-                  <li>
-                    <span className="text-primary font-bold mr-2">4</span> Expert
-                    technicians who specialize in auto glass repair and maintenance
-                  </li>
-                </ul>
-              </div>
+{/* Content Section */}
+<div className="space-y-6">
+  <h2 className="text-5xl font-extrabold text-primary leading-tight">
+    Interested<br />
+    In Residential Glass Services?
+  </h2>
+  <div className="w-16 h-1 bg-primary"></div>
+
+  <p className="text-base-content">
+    The condition of your <strong>windows, mirrors, and glass doors</strong> can significantly impact the overall atmosphere of your home. According to <strong>Feng Shui principles</strong>, clean, undamaged glass promotes <strong>positive energy flow</strong>, creating a more inviting and harmonious living space.
+    However, <strong>cracked windows, broken mirrors, or faulty sliding doors</strong> can disrupt that balance and affect the comfort of your home.
+  </p>
+
+  <p className="text-base-content">
+    When it’s time for repairs or replacements, trust <strong>Dallas Glass & Auto</strong>—the <strong>premier residential glass service provider</strong> in Dallas.
+  </p>
+
+  <p className="text-base-content">
+    <strong>
+      Don’t let damaged glass disrupt your home—contact Dallas Glass & Auto today for expert residential glass services!
+    </strong>
+  </p>
+
+  <ul className="space-y-3 text-base-content text-lg pt-2">
+    <li>
+      <span className="text-primary font-bold mr-2">1</span> Expert window glass repair and replacement for homes of all sizes
+    </li>
+    <li>
+      <span className="text-primary font-bold mr-2">2</span> Custom-cut mirrors and glass tabletops for a modern and elegant touch
+    </li>
+    <li>
+      <span className="text-primary font-bold mr-2">3</span> Sliding door glass replacement to restore safety and functionality
+    </li>
+    <li>
+      <span className="text-primary font-bold mr-2">4</span> Fast and professional glass repair services to keep your home in top shape
+    </li>
+  </ul>
+</div>
+
             </div>
           </section>
     
@@ -120,7 +101,7 @@ const AutoCard = () => {
     
           {/* Content Section */}
     
-<div className="w-full bg-base-100 py-20 px-4">
+<div className="w-full bg-base-100  px-4">
   <div className="max-w-7xl mx-auto grid gap-20">
     {slides.map((slide, i) => (
       <div

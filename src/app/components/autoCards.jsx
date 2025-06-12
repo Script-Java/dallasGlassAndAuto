@@ -105,19 +105,19 @@ const AutoCard = () => {
 
             <ul className="space-y-3 text-base-content text-lg pt-2">
               <li>
-                <span className="text-primary font-bold mr-2">1</span> Precision
+                <span className="text-primary font-bold mr-2">1 -</span> Precision
                 windshield replacement with high-quality glass
               </li>
               <li>
-                <span className="text-primary font-bold mr-2">2</span> Water
+                <span className="text-primary font-bold mr-2">2 -</span> Water
                 leak repairs to prevent further damage
               </li>
               <li>
-                <span className="text-primary font-bold mr-2">3</span> Fast and
+                <span className="text-primary font-bold mr-2">3 -</span> Fast and
                 reliable service to get you back on the road quickly
               </li>
               <li>
-                <span className="text-primary font-bold mr-2">4</span> Expert
+                <span className="text-primary font-bold mr-2">4 -</span> Expert
                 technicians who specialize in auto glass repair and maintenance
               </li>
             </ul>
@@ -125,10 +125,10 @@ const AutoCard = () => {
         </div>
       </section>
 
-          <section className="w-full bg-base-100 py-20 px-6">
+          <section className="w-full bg-base-100 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Text Section */}
-        <div className="space-y-6">
+        <div className="space-y-6 flex flex-col justify-center h-full">
           <h2 className="text-4xl font-extrabold text-base-content">
             Dallas Glass and Auto Services
           </h2>
