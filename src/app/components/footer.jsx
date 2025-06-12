@@ -16,22 +16,22 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Quick Links</h4>
             <ul className="flex flex-wrap justify-center gap-4 text-sm">
               <li>
-                <Link href="/" className="hover:underline">
+                <Link href="/" className="hover:underline hover:text-primary">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/auto" className="hover:underline">
+                <Link href="/auto" className="hover:underline hover:text-primary">
                   Auto Glass
                 </Link>
               </li>
               <li>
-                <Link href="/residential" className="hover:underline">
+                <Link href="/residential" className="hover:underline hover:text-primary">
                   Residential Glass
                 </Link>
               </li>
               <li>
-                <Link href="/quote" className="hover:underline">
+                <Link href="/quote" className="hover:underline hover:text-primary">
                   Online Quote
                 </Link>
               </li>
@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="flex flex-col sm:flex-row sm:gap-6 text-sm">
               <span className="flex items-center gap-2">
                 <FaPhone className="shrink-0" />
-                <Link href="tel:9729007194" className="hover:underline">
+                <Link href="tel:9729007194" className="hover:underline hover:text-primary">
                   972-900-7194
                 </Link>
               </span>
@@ -56,7 +56,7 @@ const Footer = () => {
                 <IoIosMail className="shrink-0" />
                 <Link
                   href="mailto:info@dallasglassandauto.com"
-                  className="hover:underline"
+                  className="hover:underline hover:text-primary"
                 >
                   info@dallasglassandauto.com
                 </Link>
