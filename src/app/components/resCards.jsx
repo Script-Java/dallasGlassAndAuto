@@ -79,16 +79,16 @@ const AutoCard = () => {
 
   <ul className="space-y-3 text-base-content text-lg pt-2">
     <li>
-      <span className="text-primary font-bold mr-2">1</span> Expert window glass repair and replacement for homes of all sizes
+      <span className="text-primary font-bold mr-2">1 -</span> Expert window glass repair and replacement for homes of all sizes
     </li>
     <li>
-      <span className="text-primary font-bold mr-2">2</span> Custom-cut mirrors and glass tabletops for a modern and elegant touch
+      <span className="text-primary font-bold mr-2">2 -</span> Custom-cut mirrors and glass tabletops for a modern and elegant touch
     </li>
     <li>
-      <span className="text-primary font-bold mr-2">3</span> Sliding door glass replacement to restore safety and functionality
+      <span className="text-primary font-bold mr-2">3 -</span> Sliding door glass replacement to restore safety and functionality
     </li>
     <li>
-      <span className="text-primary font-bold mr-2">4</span> Fast and professional glass repair services to keep your home in top shape
+      <span className="text-primary font-bold mr-2">4 -</span> Fast and professional glass repair services to keep your home in top shape
     </li>
   </ul>
 </div>
