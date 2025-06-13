@@ -41,7 +41,7 @@ const Slider = () => {
         <h2 className="text-white mb-10 text-4xl md:text-7xl uppercase font-bold">
           Full-Service Auto Glass and Residential Glass Replacement
         </h2>
-        <Link className="btn btn-primary p-6 mt-14 text-xl text-white hover:bg-black hover:text-primary" href={'/quote'}>Learn More About the Auto Glass Services We Offer</Link>
+        <Link className="btn btn-primary p-8 md:p-6 mt-14 text-xl text-white hover:bg-black hover:text-primary" href={'/quote'}>Learn More About the Auto Glass Services We Offer</Link>
       </div>
     </div>
   );

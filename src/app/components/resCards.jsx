@@ -140,32 +140,34 @@ const AutoCard = () => {
               <section className="w-full bg-base-100 py-20 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Text Section */}
-        <div className="space-y-6">
-          <h2 className="text-4xl font-extrabold text-primary">
-            Dallas Residential Glass Services
-          </h2>
-          <div className="w-20 h-1 bg-primary"></div>
-          <p className="text-base-content">
-            At <strong>Dallas Glass & Auto</strong>, we provide <strong>expert residential glass repair and replacement services</strong> tailored to fit your home’s needs. Whether you're looking for <strong>custom-cut mirrors</strong>, <strong>durable glass table tops</strong>, or <strong>high-quality window replacements</strong>, our skilled technicians ensure <strong>precision craftsmanship</strong> and <strong>long-lasting results</strong>.
-          </p>
+<div className="space-y-6">
+  <h2 className="text-4xl font-extrabold text-primary">
+    Dallas Residential Glass Services
+  </h2>
+  <div className="w-20 h-1 bg-primary"></div>
+  <p className="text-base-content">
+    At <strong>Dallas Glass & Auto</strong>, we provide <strong>expert residential glass repair and replacement services</strong> tailored to fit your home’s needs. Whether you're looking for <strong>custom-cut mirrors</strong>, <strong>durable glass table tops</strong>, or <strong>high-quality window replacements</strong>, our skilled technicians ensure <strong>precision craftsmanship</strong> and <strong>long-lasting results</strong>.
+  </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
-            {[
-              "Custom mirrors cut to size for bathrooms, bedrooms, and home decor",
-              "Framed mirror selection available from our catalog",
-              "Glass table tops cut to pattern or specific dimensions",
-              "Tempered sliding glass doors for safety and durability",
-              "Storm window and garage door window replacements",
-              "Exterior home window glass replacement",
-              "Glass shower doors for a modern and elegant touch",
-            ].map((item, idx) => (
-              <div key={idx} className="flex items-start gap-2">
-                <FaCheckCircle className="text-primary w-5 h-5 mt-1" />
-                <span className="text-base-content text-sm md:text-base">{item}</span>
-              </div>
-            ))}
-          </div>
-        </div>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+    {["Custom mirrors cut to size for bathrooms, bedrooms, and home decor",
+      "Framed mirror selection available from our catalog",
+      "Glass table tops cut to pattern or specific dimensions",
+      "Tempered sliding glass doors for safety and durability",
+      "Storm window and garage door window replacements",
+      "Exterior home window glass replacement",
+      "Glass shower doors for a modern and elegant touch",
+    ].map((item, idx) => (
+      <div key={idx} className="flex items-start gap-3">
+        <FaCheckCircle className="text-primary w-4 h-4 mt-1 flex-shrink-0" />
+        <span className="text-base-content text-sm md:text-base">
+          {item}
+        </span>
+      </div>
+    ))}
+  </div>
+</div>
+
 
         {/* Image Section */}
         <div className="w-full h-[500px] relative rounded-xl overflow-hidden shadow-lg">
