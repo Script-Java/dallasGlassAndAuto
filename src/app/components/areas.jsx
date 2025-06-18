@@ -31,7 +31,7 @@ export default function Areas() {
     {/* Left Column */}
     <div className="flex flex-col justify-center border-t border-white pt-10 md:border-t-0 md:border-l md:pl-10">
       <div>
-        <h2 className="text-3xl font-bold mb-4">Dear Valued Customers</h2>
+        <h2 className="text-3xl font-bold mb-4">Serving Dallas Metroplex with Integrity and Expertise</h2>
         <div className="w-16 h-[2px] bg-black mb-6"></div>
         <p className="text-lg leading-relaxed">
           At Dallas Glass and Auto, our experienced professionals are dedicated to
