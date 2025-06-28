@@ -4,7 +4,7 @@ id: "auto-glass-services-dallas-glass-and-auto"
 title: "Expert Auto Glass Services by Dallas Glass and Auto"
 description: "Trust Dallas Glass and Auto for reliable windshield and auto glass repair services in the Dallas area—prioritizing your safety, clarity, and convenience every mile of the way."
 date: "2025-06-17"
-image: "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compresscs=tinysrgbw=1260h=750dpr=1](https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"
+image: "https://images.pexels.com/photos/248687/pexels-photo-248687.jpeg"
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Expert Auto Glass Services by Dallas Glass and Auto

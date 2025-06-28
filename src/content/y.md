@@ -4,7 +4,7 @@ id: "shower-glass-installation-dallas-glass-and-auto"
 title: "Upgrade Your Bathroom with Shower Glass by Dallas Glass and Auto"
 description: "Discover how Dallas Glass and Auto helps you transform your bathroom with elegant, durable, and low-maintenance shower glass enclosures—customized to fit your space and style."
 date: "2025-06-17"
-image: "https://images.pexels.com/photos/5592128/pexels-photo-5592128.jpeg?auto=compresscs=tinysrgbw=1260h=750dpr=1](https://images.pexels.com/photos/5592128/pexels-photo-5592128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"
+image: "https://images.pexels.com/photos/1571462/pexels-photo-1571462.jpeg"
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Upgrade Your Bathroom with Shower Glass by Dallas Glass and Auto
@@ -23,7 +23,7 @@ Glass enclosures instantly enhance your bathroom by:
 
 > **Design Tip:** Frameless glass offers the most open, seamless appearance.
 
-![Modern Shower Design](https://images.pexels.com/photos/5592128/pexels-photo-5592128.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
+![Modern Shower Design](https://images.pexels.com/photos/3655253/pexels-photo-3655253.jpeg)
 
 ---
 
@@ -37,7 +37,6 @@ Our shower glass is treated for lasting beauty:
 
 > **Maintenance Insight:** Ask us about glass coatings that reduce cleaning time.
 
-![Clean Shower Glass](https://images.pexels.com/photos/5592090/pexels-photo-5592090.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 
@@ -51,7 +50,6 @@ Every shower is different. We create:
 
 > **Fit Tip:** Our team measures and installs everything with precision for a perfect seal.
 
-![Custom Shower Fit](https://images.pexels.com/photos/5592096/pexels-photo-5592096.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 
@@ -65,7 +63,7 @@ We offer endless customization, including:
 
 > **Style Note:** Match your enclosure to vanity fixtures for a polished look.
 
-![Shower Style Choices](https://images.pexels.com/photos/6812723/pexels-photo-6812723.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
+![Shower Style Choices](https://images.pexels.com/photos/6436770/pexels-photo-6436770.jpeg)
 
 ---
 
@@ -79,7 +77,6 @@ With Dallas Glass and Auto, you get:
 
 > **Trusted Service:** We treat your home with the care and attention it deserves.
 
-![Shower Glass Installation](https://images.pexels.com/photos/6248540/pexels-photo-6248540.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 

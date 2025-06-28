@@ -4,7 +4,7 @@ id: "residential-glass-services-dallas-glass-and-auto"
 title: "Beautiful & Energy-Efficient Residential Glass by Dallas Glass and Auto"
 description: "Upgrade your home's comfort and style with residential glass solutions from Dallas Glass and Auto. We offer window replacements, custom glass, and energy-efficient options for homes across Dallas."
 date: "2025-06-17"
-image: "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compresscs=tinysrgbw=1260h=750dpr=1](https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"
+image: "https://images.pexels.com/photos/316080/pexels-photo-316080.jpeg"
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Beautiful & Energy-Efficient Residential Glass by Dallas Glass and Auto
@@ -23,7 +23,7 @@ Old windows can lead to high energy bills. Our window upgrades:
 
 > **Energy Tip:** Replacing old windows can reduce energy costs by up to 25%.
 
-![Energy Efficient Windows](https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
+![Energy Efficient Windows](https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg)
 
 ---
 
@@ -37,7 +37,6 @@ Glass is a powerful design element. We provide:
 
 > **Design Insight:** Glass makes small rooms feel bigger and adds sophistication.
 
-![Stylish Home Glass](https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 
@@ -51,7 +50,6 @@ Brighten your home and enjoy the outdoors from the inside:
 
 > **Bright Idea:** Natural light improves mood, productivity, and home value.
 
-![Natural Light Windows](https://images.pexels.com/photos/220889/pexels-photo-220889.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 
@@ -65,7 +63,7 @@ Every home is unique. We offer:
 
 > **Customization Tip:** Our team measures and installs everything to perfection.
 
-![Custom Home Glass](https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
+![Custom Home Glass](https://images.pexels.com/photos/1438834/pexels-photo-1438834.jpeg)
 
 ---
 
@@ -79,7 +77,6 @@ Why homeowners choose Dallas Glass and Auto:
 
 > **Local Service:** We treat your home like it’s our own.
 
-![Home Glass Installation](https://images.pexels.com/photos/271800/pexels-photo-271800.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 
