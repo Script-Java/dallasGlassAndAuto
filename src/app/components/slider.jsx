@@ -38,7 +38,7 @@ const Slider = () => {
 
       {/* Static Text Content */}
       <div className="absolute inset-0 bg-black/50 z-10 flex flex-col justify-center items-center text-center px-4">
-        <h2 className="text-white mb-10 text-4xl md:text-7xl uppercase font-bold">
+        <h2 className="text-white text-center mb-10 text-4xl md:text-6xl uppercase font-bold">
           Full-Service Auto Glass and Residential Glass Replacement
         </h2>
         <Link className="btn btn-primary p-8 md:p-6 mt-14 text-xl text-white hover:bg-black hover:text-primary" href={'/quote'}>Learn More About the Auto Glass Services We Offer</Link>
