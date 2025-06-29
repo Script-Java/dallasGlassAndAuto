@@ -5,6 +5,7 @@ import Slider from "./components/slider";
 import Card from "./components/card";
 import Satisfaction from "./components/satisfaction";
 import Areas from "./components/areas";
+import HowToCare from "./components/howtocare";
 
 import dynamic from "next/dynamic";
 const TrustindexWidget = dynamic(() => import("./components/reviews"), { ssr: false });
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <Slider />
       <Card />
+      <HowToCare />
       <TrustindexWidget />
       <Satisfaction></Satisfaction>
       <Areas></Areas>
